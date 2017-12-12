@@ -6,8 +6,39 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
+@font-face {
+    font-family: 'alegreyaregular';
+    src:url('../../../../styles/webfonts/alegreya_webfont/alegreya-regular-webfont.eot');
+    src: url('../../../../styles/webfonts/alegreya_webfont/alegreya-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../../styles/webfonts/alegreya_webfont/alegreya-regular-webfont.woff') format('woff'),
+         url('../../../../styles/webfonts/alegreya_webfont/alegreya-regular-webfont.ttf') format('truetype'),
+         url('../../../../styles/webfonts/alegreya_webfont/alegreya-regular-webfont.svg#alegreyaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alegreya_scregular';
+    src:url('../../../../styles/webfonts/alegreya_sc_webfont/alegreyasc-regular-webfont-webfont.eot');
+    src: url('../../../../styles/webfonts/alegreya_sc_webfont/alegreyasc-regular-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../../styles/webfonts/alegreya_sc_webfont/alegreyasc-regular-webfont-webfont.woff') format('woff'),
+         url('../../../../styles/webfonts/alegreya_sc_webfont/alegreyasc-regular-webfont-webfont.ttf') format('truetype'),
+         url('../../../../styles/webfonts/alegreya_sc_webfont/alegreyasc-regular-webfont-webfont.svg#alegreya_scregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'special_eliteregular';
+    src: url('../../../../styles/webfonts/specialelite_regular_macroman/SpecialElite-webfont.eot');
+    src: url('../../../../styles/webfonts/specialelite_regular_macroman/SpecialElite-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../../styles/webfonts/specialelite_regular_macroman/SpecialElite-webfont.woff') format('woff'),
+         url('../../../../styles/webfonts/specialelite_regular_macroman/SpecialElite-webfont.ttf') format('truetype'),
+         url('../../../../styles/webfonts/specialelite_regular_macroman/SpecialElite-webfont.svg#special_eliteregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
-    font-family: sans-serif;
+    font-family: "alegreyaregular", serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
 }
@@ -74,7 +105,7 @@ dfn {
 
 h1 {
     margin: .67em 0;
-    font-size: 2em
+    font-size: 2em;
 }
 
 mark {
@@ -1390,7 +1421,7 @@ html {
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "alegreyaregular", serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -1506,7 +1537,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: inherit;
+    font-family: "alegreya_scregular", serif;
     font-weight: 500;
     line-height: 1.1;
     color: inherit
@@ -7168,7 +7199,7 @@ button.close {
     position: absolute;
     z-index: 1070;
     display: block;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "alegreyaregular", serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
