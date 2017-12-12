@@ -1,0 +1,12 @@
+EDITS ON:
+
+store/index.php
+store/includes/template_top.php
+store/includes/modules/content/header/templates/logo.php
+store/includes/modules/content/navigation/templates/navbar.php
+store/ext/bootstrap/css/bootstrap.min.css
+index.php
+components/header-nav.php
+styles/carousel.css
+styles/bootstrap.min.css
+
