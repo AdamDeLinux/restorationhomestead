@@ -1424,8 +1424,7 @@ body {
     font-family: "alegreyaregular", serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333;
-    background-color: rgba(255,255,255,0.7);
+    color: #333    
 }
 
 button,
@@ -1440,6 +1439,9 @@ textarea {
 a {
     color: #337ab7;
     text-decoration: none
+}
+nav a {
+    color:#fff
 }
 
 a:focus,
@@ -5051,7 +5053,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar {
     position: relative;
     min-height: 50px;
-    margin-bottom: 20px;
     border: 1px solid transparent
 }
 
@@ -8065,6 +8066,10 @@ button.close {
     .hidden-print {
         display: none!important
     }
+}
+
+#bodyWrapper {
+    background-color: rgba(255,255,255,0.7);
 }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
