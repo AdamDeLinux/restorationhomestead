@@ -1,0 +1,25 @@
+a:12:{s:8:"encoding";s:5:"UTF-8";s:5:"title";s:15:"osCommerce Apps";s:4:"link";s:26:"https://www.oscommerce.com";s:11:"description";s:35:"osCommerce Apps Marketplace listing";s:8:"language";s:2:"en";s:9:"copyright";s:29:"Copyright (c) 2017 osCommerce";s:14:"managingEditor";s:19:"hpdl@oscommerce.com";s:11:"image_title";s:10:"osCommerce";s:9:"image_url";s:69:"https://www.oscommerce.com/public/sites/Website/images/oscommerce.png";s:10:"image_link";s:26:"https://www.oscommerce.com";s:5:"items";a:5:{i:0;a:4:{s:5:"title";s:20:"All Manufacturers BS";s:4:"link";s:33:"https://apps.oscommerce.com/clER0";s:11:"description";s:331:"All Manufacturers BS.<br />
+<br />
+Adaptation to BS EDGE of the addon 'All Manufacturers' (https://apps.oscommerce.com/00fKs)<br />
+<br />
+This page produces a list of all manufacturers with logos in all languages, I thought this might be cool for search engines.<br />
+<br />
+It includes the English, Spanish and German languages.";s:7:"pubDate";s:31:"Mon, 11 Dec 2017 23:10:13 +0100";}i:1;a:4:{s:5:"title";s:18:"Dynamic SiteMap BS";s:4:"link";s:33:"https://apps.oscommerce.com/Cjx2T";s:11:"description";s:597:"Displays a dynamic site map for customers.<br />
+<br />
+It also creates XML maps for search engines.<br />
+<br />
+Adapted to BootStrap.<br />
+<br />
+Based on the addon Dynamic SiteMap for osCommerce 2.3 (https://apps.oscommerce.com/I5Buk)<br />
+<br />
+It is in English and Spanish. Other languages that had been previously were eliminated in the last update. I leave the addon open for new updates, especially languages. The spirit of osCommerce has always been that everyone collaborate as they can, not block addons so nobody can upload anything, or corrections, improvements or other languages.";s:7:"pubDate";s:31:"Sun, 10 Dec 2017 20:10:07 +0100";}i:2;a:4:{s:5:"title";s:40:"ENHANCED CreateAccount AJAX PULLDOWN MNU";s:4:"link";s:33:"https://apps.oscommerce.com/cs6R9";s:11:"description";s:1508:"ENHANCED Create_Account AJAX PULLDOWN MENUS FOR OSCOMMERCE BS 2.3.4<br />
+<br />
+This enhancement uses a bunch of AJAX, PHP, JavaScript code and a simple MySQL Query in order to avoid errors when an user creates an account. To sum up, the ZIP field is placed firstly, and once the new customer types a proper ZIP code, the City textbox field becomes a pulldown menu control where typing into it is disabled. In other words, as the customer types, by AJAX performance a SQL query is committed and fills the pulldown menu with all the cities that belong to this ZIP code according to the cities table imported in the database.<br />
+<br />
+Also, the Country / State or Province fields are improved, and the user will no longer type anymore. This improvement discards any error when typing and beside this in some cases saves the inconvenience to the user to handly write long cities /states / provinces names. Thus, human errors like poor misspellings, carelessness... and anycase mistakes will be reduced.<br />
+<br />
+This contribution includes a table called cities with a huge list of all the towns, cities or villages that correspond to the ZIP code, so it is a list of pairs ZIP_-_city. This list includes all of the ZIP codes of Spain (my country) and Portugal, but feel free to replace the attached SQL file with a customized one that accomplish the countries of your Store. TIP: The list was provided by my delivery company, so you can ask to your courier so that they would provide your desired list.";s:7:"pubDate";s:31:"Sat, 09 Dec 2017 19:05:14 +0100";}i:3;a:4:{s:5:"title";s:40:"BS AjaxAngular Professional ShoppingCart";s:4:"link";s:33:"https://apps.oscommerce.com/TlSkP";s:11:"description";s:113:"Several minor fixes and a new improved instructions.txt. Thanks to Esther Houdt from Netherlands for her warning.";s:7:"pubDate";s:31:"Sun, 10 Dec 2017 19:20:07 +0100";}i:4;a:4:{s:5:"title";s:26:"ShipStation for OsCommerce";s:4:"link";s:33:"https://apps.oscommerce.com/RMpJA";s:11:"description";s:158:"To match the current coding style I've replaced the TABLE_ references with the actual table name. <br />
+<br />
+Now Version 1.1 beta<br />
+<br />
+Full package";s:7:"pubDate";s:31:"Fri, 08 Dec 2017 16:15:08 +0100";}}s:11:"items_count";i:5;}
