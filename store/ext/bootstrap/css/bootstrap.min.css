@@ -8071,5 +8071,23 @@ button.close {
 #bodyWrapper {
     background-color: rgba(255,255,255,0.5);
 }
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-brand img {
+    height: 4em;
+    width: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
 
 /*# sourceMappingURL=bootstrap.min.css.map */

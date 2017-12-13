@@ -2,7 +2,7 @@
 
 ?>
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark">
       <a class="navbar-brand" href="#">
           
             <img src="images/logo.png" alt="Restoration Homestead">

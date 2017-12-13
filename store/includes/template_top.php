@@ -47,12 +47,10 @@
 <?php echo $oscTemplate->getBlocks('header_tags'); ?>
 </head>
 <body>
-
+    
 <?php
-    require("../components/header-nav.php");
     echo $oscTemplate->getContent('navigation');
 ?>
-  
   <div id="bodyWrapper" class="<?php echo BOOTSTRAP_CONTAINER; ?>">
     <div class="row">
 
