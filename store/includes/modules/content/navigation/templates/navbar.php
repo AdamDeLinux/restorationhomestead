@@ -18,19 +18,19 @@
       if ($oscTemplate->hasBlocks('navbar_modules_left')) {
         echo '<ul class="nav navbar-nav">
         <li class="nav-item">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="../">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About Us</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item" href="./store">Visit Store</a>
-                <a class="dropdown-item" href="#">Pork</a>
-                <a class="dropdown-item" href="#">Beef</a>
-                <a class="dropdown-item" href="#">Bread</a>
-              </div>
+              <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                <li><a class="dropdown-item" href="./store">Visit Store</a></li>
+                <li><a class="dropdown-item" href="#">Pork</a></li>
+                <li><a class="dropdown-item" href="#">Beef</a></li>
+                <li><a class="dropdown-item" href="#">Bread</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Farmer\'s Market</a>

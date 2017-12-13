@@ -4856,7 +4856,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:focus,
 .nav .open > a:hover {
-    background-color: #eee;
+    background-color: rgba(0,0,0,0.4);
     border-color: #337ab7
 }
 
@@ -5229,8 +5229,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
     .navbar-toggle {
         display: none
     }
+    
 }
-
 .navbar-nav {
     margin: 7.5px -15px
 }
@@ -5395,7 +5395,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-text {
     margin-top: 15px;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    line-height: 5em
 }
 
 @media (min-width:768px) {
@@ -5500,7 +5501,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
         color: #555;
-        background-color: #e7e7e7
+        background-color: rgba(0,0,0,0.4)
     }
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus,
@@ -5621,7 +5622,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
     .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus,
     .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover {
         color: #fff;
-        background-color: #080808
+        background-color: rgba(0,0,0,0.4)
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
     .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus,
@@ -8071,23 +8072,60 @@ button.close {
 #bodyWrapper {
     background-color: rgba(255,255,255,0.5);
 }
+
 .navbar-brand {
     display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
+    padding-top: .3125em;
+    padding-bottom: .3125em;
+    margin-right: 1em;
+    font-size: 1.25em;
     line-height: inherit;
+    height:5em;
     white-space: nowrap;
 }
 
 .navbar-brand img {
-    height: 4em;
+    height: 5em;
     width: auto;
 }
 img {
     vertical-align: middle;
     border-style: none;
 }
+
+
+nav li, nav .container a, nav .container-fluid a, navbar-text {
+    line-height: 5em;
+    vertical-align: middle
+}
+.navbar-nav .open a:active {
+    background-color:transparent;
+}
+@media (max-width:767px) {
+    .navbar-brand, .navbar-brand img {
+        position: absolute;
+        top:0;
+        height:2.5em
+    }
+    .navbar-inverse .navbar-collapse {
+        background-color:rgba(0,0,0,0.7)
+    }
+    nav li, nav .container a, nav .container-fluid a, p.navbar-text {
+        line-height: 1.5em
+    }
+}
+.navbar-inverse {
+    background-color: transparent;
+    border:none
+}
+.navbar-inverse .navbar-toggle {
+    border-color:#CCC
+}
+ul.dropdown-menu li a {
+    line-height: 1.5em
+}
+
+
+
 
 /*# sourceMappingURL=bootstrap.min.css.map */
